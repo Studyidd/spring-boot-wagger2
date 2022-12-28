@@ -31,7 +31,7 @@ import java.util.List;
 @Configuration
 @EnableSwagger2
 @EnableSwaggerBootstrapUI
-@Profile({"dev", "test", "pre", "prod"})
+@Profile({"dev", "test", "pre", "prod"})/*多种模式*/
 public class Swagger2UiConfiguration extends WebMvcConfigurerAdapter  {
 
     @Value("${swagger2.enable}")
